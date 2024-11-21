@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #09bbcf;
+    background-size: cover;
+}
+
+header {
+    background: rgb(218, 156, 12);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+main {
+    background-image: url('https://www.eatingwell.com/thmb/IIu4YvVCeuh8g3lMwPo30q3RkDQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/40247241-b8b19c9a77b043adb401c671fb8f65b0.jpg');
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#nutritionalInfo {
+    background: rgb(218, 156, 12);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
